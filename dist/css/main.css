@@ -1,0 +1,188 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul, li {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul, li {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+button {
+  padding: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer; }
+
+input,
+textarea,
+select {
+  outline: none;
+  background: none;
+  border: none; }
+
+textarea {
+  resize: none; }
+
+select:hover {
+  background: none; }
+
+input::-ms-clear {
+  display: none; }
+
+input[type="text"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0; }
+
+input[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0; }
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 80px 10px; }
+  @media (max-width: 1200px) {
+    .container {
+      max-width: 970px; } }
+  @media (max-width: 992px) {
+    .container {
+      max-width: 768px; } }
+  @media (max-width: 768px) {
+    .container {
+      max-width: 640px; } }
+  @media (max-width: 480px) {
+    .container {
+      max-width: 95%; } }
+
+.tabs__controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 40px; }
+  .tabs__controls-item {
+    margin-right: 18px;
+    border-radius: 4px;
+    background: #144182;
+    -webkit-transition: .3s;
+    transition: .3s; }
+    .tabs__controls-item:last-child {
+      margin-right: 0; }
+    .tabs__controls-item:hover, .tabs__controls-item_active {
+      background: #88afdd; }
+  .tabs__controls-link {
+    display: block;
+    padding: 12px 17px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px; }
+
+.tabs__list {
+  border-radius: 4px; }
+
+.tabs__item {
+  margin-bottom: 30px;
+  padding: 16px 12px;
+  border: 1px solid #88afdd; }
+  .tabs__item:last-child {
+    margin-bottom: 0; }
+
+.tabs__title {
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  color: #0d0d14;
+  font-size: 16px;
+  font-weight: 600; }
+
+.tabs__text {
+  color: #1e1e2b;
+  line-height: 25px; }
+
+html {
+  color: #0d0d14;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400; }

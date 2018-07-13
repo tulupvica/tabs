@@ -1,0 +1,18 @@
+//ASSETS
+//======================
+@import "helpers/reset";
+@import "helpers/setups";
+@import "helpers/mixins";
+@import "helpers/placeholders";
+
+
+@import "tabs/desctop-tabs";
+
+
+html {
+  color: #0d0d14;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}

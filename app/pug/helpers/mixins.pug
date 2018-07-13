@@ -1,0 +1,8 @@
+mixin tabs__controls (link, item)
+    li.tabs__controls-item
+        a.tabs__controls-link(href= link)= item
+
+mixin tabs__list (id, title, text)
+    li.tabs__item(class= id)
+        h3.tabs__title= title
+        p.tabs__text= text
